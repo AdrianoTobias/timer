@@ -22,5 +22,11 @@ export default tseslint.config({
       'warn',
       { allowConstantExport: true },
     ],
+    // Regras de estilo
+    'semi': ['error', 'always'],           // Requer ponto e vírgula
+    'quotes': ['error', 'double'],         // Requer aspas
+    'indent': ['error', 2],                // Indentação de 2 espaços
+    'comma-dangle': ['error', 'never'],    // Sem vírgula no final de listas e objetos
+    'arrow-parens': ['error', 'as-needed'],// Requer parênteses, quando preciso, em arrow functions
   },
 })
